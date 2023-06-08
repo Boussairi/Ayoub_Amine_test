@@ -33,6 +33,9 @@ def main():
     
     # giving a title
     st.title(' Web Application de Prediction des transaction fraduleuse ')
+    st.write(" Preparé Par : ")
+    st.write(" - Chadifi Ayoub ")
+    st.write(" - Amine EL Okri ")
     
     
     # getting the input data from the user
