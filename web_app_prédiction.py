@@ -32,7 +32,7 @@ def main():
     
     
     # giving a title
-    st.title(' Prediction des transaction fraduleuse Web App')
+    st.title(' Web Application de Prediction des transaction fraduleuse ')
     
     
     # getting the input data from the user
