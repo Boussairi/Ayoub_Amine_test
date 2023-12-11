@@ -82,31 +82,36 @@ Pour plus de détails sur les données, veuillez consulter la [source des donné
 
 6. **Modèle 6 - Bagging :** Le bagging (Bootstrap Aggregating) est une technique d'ensemble où plusieurs modèles sont entraînés sur différents sous-ensembles des données d'entraînement. Cela réduit la variance du modèle global. [Documentation du Bagging](https://scikit-learn.org/stable/modules/ensemble.html#bagging-meta-estimator)
 
+
 ## Installation
-## Installation
 
-### Prérequis
-Assurez-vous d'avoir Python installé. Si ce n'est pas le cas, téléchargez et installez Python à partir du [site officiel](https://www.python.org/downloads/).
-
-### Étapes d'Installation
-
-1. **Clonez le dépôt GitHub**
    ```bash
+   # Clonez le dépôt GitHub
    git clone [https://github.com/jinan02/projet_ift712](https://github.com/jinan02/projet_ift712)
    cd nom-du-projet
    
    # Créez un environnement virtuel (optionnel, mais recommandé)
    python -m venv venv
+
    # Pour activer l'environnement virtuel (sous Windows) 
    venv\Scripts\activate
+
    # Pour activer l'environnement virtuel (sous macOS/Linux)
    source venv/bin/activate
 
    #Installez les dépendances
    pip install -r requirements.txt
 
+```
 
+## Utilisation
+Une fois que l'installation est terminée, vous pouvez lancer le projet en suivant ces étapes :
+Pour entraîner et utiliser les modèles de classification, exécutez le script principal projet.ipynb. Vous pouvez utiliser un environnement Jupyter Notebook ou tout autre environnement de développement Python de votre choix.
 
+```bash
+# Exemple de commande pour exécuter le script d'entraînement
+jupyter notebook projet.ipynb
+```
 
 * Free software: MIT license
 
