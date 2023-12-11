@@ -26,6 +26,7 @@ ce projet vise à résoudre le défi de classification des feuilles en exploitan
 ├── .gitignore
 └── README.md
 
+
 ├── data/
 │   ├── train.csv
 │   ... (autres données)
