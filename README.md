@@ -7,16 +7,6 @@ ce projet vise à résoudre le défi de classification des feuilles en exploitan
 
 ## Structure du Projet
 
-
-    .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
-    
     ├── data/
     │   ├── train.csv
     │   ... 
@@ -35,47 +25,6 @@ ce projet vise à résoudre le défi de classification des feuilles en exploitan
     ├── .travis.yml
     ├── .gitignore
     └── README.md
-
-.
-├── data/
-│   ├── train.csv
-│   ... (autres données)
-├── src/
-│   ├── __init__.py
-│   ├── Classify_Data.py
-│   ├── Preprocess_Data.py
-│   ├── Visualize_Results.py
-│   ... (autres fichiers source)
-├── requirements.txt
-├── projet.ipynb
-├── LICENSE
-├── AUTHORS.rst
-├── .editorconfig
-├── Makefile
-├── .travis.yml
-├── .gitignore
-└── README.md
-
-
-|-- data/
-| |-- train.csv
-| ...
-|-- src/
-| |-- init.py
-| |-- Classify_Data.py
-| |-- Preprocess_Data.py
-| |-- Visualize_Results.py
-| ...
-|-- requirements.txt
-|-- projet.ipynb
-|-- LICENSE
-|-- AUTHORS.rst
-|-- .editorconfig
-|-- Makefile
-|-- .travis.yml
-|-- .gitignore
-|-- README.md
-
 
 La structure du projet est organisée comme suit :
 
