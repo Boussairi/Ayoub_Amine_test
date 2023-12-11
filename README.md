@@ -1,6 +1,17 @@
 Projet IFT712 : Classification de Feuilles (Leaf Classificiation)
 ============================================================
 
+.. image:: https://img.shields.io/pypi/v/projet_ift712.svg
+        :target: https://pypi.python.org/pypi/projet_ift712
+
+.. image:: https://img.shields.io/travis/jinan02/projet_ift712.svg
+        :target: https://travis-ci.com/jinan02/projet_ift712
+
+.. image:: https://readthedocs.org/projects/projet-ift712/badge/?version=latest
+        :target: https://projet-ift712.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
 ## Aperçu
 
 ce projet vise à résoudre le défi de classification des feuilles en exploitant six modèles distincts de classification. Chaque modèle est élaboré afin de prédire la catégorie d'une feuille en se fondant sur des caractéristiques spécifiques extraites.
