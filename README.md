@@ -5,7 +5,7 @@ Projet de Classification de Feuilles (Leaf Classificiation)
 
 Ce projet vise à résoudre le problème de classification de feuilles en utilisant six modèles de classification différents. Chaque modèle est conçu pour prédire la classe d'une feuille sur la base de caractéristiques spécifiques extraites de l'image de la feuille.
 
-# Modèles de Classification
+## Modèles de Classification
 
 
 1. **Modèle 1 - Support Vector Machine (SVM) :** Description du modèle et de ses caractéristiques.
