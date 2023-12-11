@@ -26,6 +26,55 @@ ce projet vise à résoudre le défi de classification des feuilles en exploitan
 |-- .gitignore
 |-- README.md
 
+|-- data/
+| |-- train.csv
+| ...
+|-- src/
+| |-- init.py
+| |-- Classify_Data.py
+| |-- Preprocess_Data.py
+| |-- Visualize_Results.py
+| ...
+|-- requirements.txt
+|-- projet.ipynb
+|-- LICENSE
+|-- AUTHORS.rst
+|-- .editorconfig
+|-- Makefile
+|-- .travis.yml
+|-- .gitignore
+|-- README.md
+
+
+La structure du projet est organisée comme suit :
+
+- **data/** : Répertoire contenant les données du projet, avec notamment le fichier `train.csv`.
+
+- **src/** : Répertoire abritant les scripts source du projet :
+  - **_init_.py** : Fichier d'initialisation du module Python.
+  - **Classify_Data.py** : Script pour la classification des données.
+  - **Preprocess_Data.py** : Script pour le prétraitement des données.
+  - **Visualize_Results.py** : Script pour la visualisation des résultats.
+  - ...
+
+- **requirements.txt** : Fichier spécifiant les dépendances du projet.
+
+- **projet.ipynb** : Fichier Jupyter Notebook contenant le code principal du projet.
+
+- **LICENSE** : Fichier décrivant la licence du projet.
+
+- **AUTHORS.rst** : Fichier listant les auteurs du projet.
+
+- **.editorconfig** : Fichier de configuration pour les éditeurs de texte.
+
+- **Makefile** : Fichier utilisé pour automatiser des tâches dans le projet.
+
+- **.travis.yml** : Fichier de configuration pour l'intégration continue avec Travis CI.
+
+- **.gitignore** : Fichier spécifiant les fichiers et répertoires à ignorer lors du suivi avec Git.
+
+- **README.md** : Fichier que vous êtes actuellement en train de lire, contenant des informations générales sur le projet.
+
 
 ## Données
 
