@@ -3,15 +3,35 @@ Projet de Classification de Feuilles (Leaf Classificiation)
 
 ## Aperçu
 
-Ce projet vise à résoudre le problème de classification de feuilles en utilisant six modèles de classification différents. Chaque modèle est conçu pour prédire la classe d'une feuille sur la base de caractéristiques spécifiques extraites de l'image de la feuille.
+ce projet vise à résoudre le défi de classification des feuilles en exploitant six modèles distincts de classification. Chaque modèle est élaboré afin de prédire la catégorie d'une feuille en se fondant sur des caractéristiques spécifiques extraites.
+
+## Structure du Projet
+
+|-- data/
+|   |-- train.csv
+|   ...
+|-- src/
+|   |-- _init_.py
+|   |-- Classify_Data.py
+|   |-- Preprocess_Data.py
+|   |-- Visualize_Results.py
+|   ...
+|-- requirements.txt
+|-- projet.ipynb
+|-- LICENSE
+|-- AUTHORS.rst
+|-- .editorconfig
+|-- Makefile
+|-- .travis.yml
+|-- .gitignore
+|-- README.md
+
 
 ## Données
 
-Les données utilisées pour l'entraînement et les tests sont stockées dans le dossier 'data'.
-Le jeu de données comprend environ 1 584 images de spécimens de feuilles (16 échantillons de chacune des 99 espèces), converties en feuilles noires binaires sur fond blanc. Trois ensembles de caractéristiques sont également fournis par image : un descripteur continu de forme, un histogramme de texture intérieure et un histogramme de marge à petite échelle. Pour chaque caractéristique, un vecteur de 64 attributs est donné par échantillon de feuille.
+Les données destinées à l'entraînement et aux tests sont consignées dans le répertoire `data`. Le corpus de données en question compte approximativement 991 entrées.
 
-
-Les colonnes du jeu de données sont les suivantes :
+Les colonnes contenues dans le jeu de données sont définies comme suit :
 - `id` : un identifiant anonyme unique pour une image
 - `margin_1`, `margin_2`, ..., `margin_64` : chacun des 64 vecteurs d'attributs pour la caractéristique de marge
 - `shape_1`, `shape_2`, ..., `shape_64` : chacun des 64 vecteurs d'attributs pour la caractéristique de forme
