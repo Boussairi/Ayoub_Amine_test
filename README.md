@@ -7,24 +7,34 @@ ce projet vise à résoudre le défi de classification des feuilles en exploitan
 
 ## Structure du Projet
 
-├── data/
-│   ├── train.csv
-│   ... 
-├── src/
-│   ├── __init__.py
-│   ├── Classify_Data.py
-│   ├── Preprocess_Data.py
-│   ├── Visualize_Results.py
-│   ... 
-├── requirements.txt
-├── projet.ipynb
-├── LICENSE
-├── AUTHORS.rst
-├── .editorconfig
-├── Makefile
-├── .travis.yml
-├── .gitignore
-└── README.md
+
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+    
+    ├── data/
+    │   ├── train.csv
+    │   ... 
+    ├── src/
+    │   ├── __init__.py
+    │   ├── Classify_Data.py
+    │   ├── Preprocess_Data.py
+    │   ├── Visualize_Results.py
+    │   ... 
+    ├── requirements.txt
+    ├── projet.ipynb
+    ├── LICENSE
+    ├── AUTHORS.rst
+    ├── .editorconfig
+    ├── Makefile
+    ├── .travis.yml
+    ├── .gitignore
+    └── README.md
 
 .
 ├── data/
