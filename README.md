@@ -9,13 +9,13 @@ ce projet vise à résoudre le défi de classification des feuilles en exploitan
 
 ├── data/
 │   ├── train.csv
-│   ... (autres données)
+│   ... 
 ├── src/
 │   ├── __init__.py
 │   ├── Classify_Data.py
 │   ├── Preprocess_Data.py
 │   ├── Visualize_Results.py
-│   ... (autres fichiers source)
+│   ... 
 ├── requirements.txt
 ├── projet.ipynb
 ├── LICENSE
@@ -26,7 +26,7 @@ ce projet vise à résoudre le défi de classification des feuilles en exploitan
 ├── .gitignore
 └── README.md
 
-
+.
 ├── data/
 │   ├── train.csv
 │   ... (autres données)
