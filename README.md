@@ -70,21 +70,17 @@ Pour plus de détails sur les données, veuillez consulter la [source des donné
 
 ## Modèles de Classification
 
+1. **Modèle 1 - Régression Logistique :** La régression logistique est un modèle de classification utilisé pour prédire la probabilité qu'une observation appartienne à une catégorie particulière. Elle fonctionne en ajustant une courbe logistique aux données d'entraînement. [Documentation de la Régression Logistique](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
 
-1. **Modèle 1 - Support Vector Machine (SVM) :** Description du modèle et de ses caractéristiques.
+2. **Modèle 2 - Support Vector Classification (SVC) :** Le modèle de classification par machine à vecteurs de support (SVC) cherche à séparer les classes en trouvant le meilleur hyperplan qui maximise la marge entre les différentes classes. [Documentation du SVC](https://scikit-learn.org/stable/modules/svm.html#classification)
 
-2. **Modèle 2 - Réseau de Neurones Convolutifs (CNN) :** Description du modèle et de ses caractéristiques.
+3. **Modèle 3 - SGD (Stochastic Gradient Descent) :** Le SGD est un algorithme d'optimisation utilisé dans le contexte de la classification. Il ajuste les paramètres du modèle en utilisant la descente de gradient sur des échantillons aléatoires. [Documentation du SGD](https://scikit-learn.org/stable/modules/sgd.html)
 
-3. **Modèle 3 - K-Nearest Neighbors (KNN) :** Description du modèle et de ses caractéristiques.
+4. **Modèle 4 - Random Forest :** Random Forest est un ensemble d'arbres de décision où chaque arbre vote pour une classe et la classe majoritaire est choisie. Cela améliore la robustesse et la précision du modèle. [Documentation du Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#random-forests)
 
-4. **Modèle 4 - Random Forest :** Description du modèle et de ses caractéristiques.
+5. **Modèle 5 - Adaboost :** Adaboost est un modèle de boosting qui combine plusieurs modèles faibles pour former un modèle fort. Il assigne des poids aux observations, donnant plus d'importance aux erreurs précédentes. [Documentation de l'Adaboost](https://scikit-learn.org/stable/modules/ensemble.html#adaboost)
 
-5. **Modèle 5 - Gradient Boosting :** Description du modèle et de ses caractéristiques.
-
-6. **Modèle 6 - Régression Logistique :** Description du modèle et de ses caractéristiques.
-
-## Données
-Les données utilisées pour l'entraînement et les tests sont stockées dans le dossier `data`. Assurez-vous de fournir des détails sur la source des données et leur format.
+6. **Modèle 6 - Bagging :** Le bagging (Bootstrap Aggregating) est une technique d'ensemble où plusieurs modèles sont entraînés sur différents sous-ensembles des données d'entraînement. Cela réduit la variance du modèle global. [Documentation du Bagging](https://scikit-learn.org/stable/modules/ensemble.html#bagging-meta-estimator)
 
 ## Installation
 1. Clonez le dépôt GitHub sur votre machine locale.
