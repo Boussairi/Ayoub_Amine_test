@@ -1,4 +1,6 @@
-** Projet de Classification de Feuilles
+============================================================
+Projet de Classification de Feuilles (Leaf Classificiation)
+============================================================
 
 * Aperçu
 --------
