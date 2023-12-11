@@ -1,4 +1,4 @@
-Projet de Classification de Feuilles (Leaf Classificiation)
+Projet IFT712 : Classification de Feuilles (Leaf Classificiation)
 ============================================================
 
 ## Aperçu
@@ -82,6 +82,30 @@ Pour plus de détails sur les données, veuillez consulter la [source des donné
 
 6. **Modèle 6 - Bagging :** Le bagging (Bootstrap Aggregating) est une technique d'ensemble où plusieurs modèles sont entraînés sur différents sous-ensembles des données d'entraînement. Cela réduit la variance du modèle global. [Documentation du Bagging](https://scikit-learn.org/stable/modules/ensemble.html#bagging-meta-estimator)
 
+## Métriques de Performance
+
+L'évaluation de la performance des modèles de classification repose sur plusieurs métriques clés. Voici un aperçu des principales métriques utilisées dans ce projet :
+
+1. **Accuracy (Précision) :**
+   - **Définition :** L'accuracy mesure la proportion d'observations correctement classées parmi l'ensemble des observations.
+   - **Formule :** \(\frac{\text{Nombre d'observations correctement classées}}{\text{Nombre total d'observations}}\)
+   - **Interprétation :** Une valeur élevée d'accuracy indique une performance globale du modèle.
+
+2. **Precision (Précision) :**
+   - **Définition :** La précision mesure la proportion d'observations positives correctement classées parmi toutes les observations classées comme positives.
+   - **Formule :** \(\frac{\text{Nombre de vrais positifs}}{\text{Nombre de vrais positifs + Nombre de faux positifs}}\)
+   - **Interprétation :** Une valeur élevée de précision indique que le modèle minimise les faux positifs.
+
+3. **Recall (Rappel) :**
+   - **Définition :** Le rappel mesure la proportion d'observations positives correctement classées parmi toutes les observations réellement positives.
+   - **Formule :** \(\frac{\text{Nombre de vrais positifs}}{\text{Nombre de vrais positifs + Nombre de faux négatifs}}\)
+   - **Interprétation :** Un rappel élevé indique que le modèle capture efficacement les observations positives réelles.
+
+4. **F1 Score :**
+   - **Définition :** Le F1 score est la moyenne harmonique de la précision et du rappel, fournissant une mesure équilibrée entre les deux.
+   - **Formule :** \(2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision + Recall}}\)
+   - **Interprétation :** Un F1 score élevé indique un équilibre optimal entre la précision et le rappel.
+
 
 ## Installation
 
@@ -113,5 +137,49 @@ Pour entraîner et utiliser les modèles de classification, exécutez le script 
 jupyter notebook projet.ipynb
 ```
 
-* Free software: MIT license
+## Collaboration
+
+Nous sommes reconnaissants envers les contributeurs qui ont déjà participé à ce projet. Voici une liste des contributeurs actuels :
+
+1. **Abir Jamaly**
+2. **Jinane Boufaris**
+3. **Hamza Boussairi**
+   
+Merci à eux pour leurs efforts et leur engagement envers l'amélioration continue de ce projet.
+Nous encourageons vivement la collaboration et les contributions à ce projet. Si vous souhaitez participer, voici quelques lignes directrices pour une collaboration harmonieuse :
+
+### Comment Contribuer
+
+1. **Créez une Issue :** Avant de commencer à contribuer, créez une issue pour discuter des modifications que vous envisagez. Cela permet d'obtenir des commentaires et d'éviter tout chevauchement avec d'autres contributeurs.
+
+2. **Fork et Clone :** Fork le dépôt vers votre propre compte GitHub et clonez-le sur votre machine locale.
+
+   ```bash
+   git clone https://github.com/jinan02/projet_ift712
+   ```
+
+3. **Créez une Branche :** Créez une branche pour travailler sur votre nouvelle fonctionnalité ou correction.
+
+   ```bash
+   git checkout -b nom-de-votre-branche
+   ```
+
+4. **Effectuez les Modifications :** Faites vos modifications et assurez-vous de suivre les conventions de codage existantes.
+
+5. **Testez Localement :** Avant de soumettre une demande de fusion, assurez-vous que votre code fonctionne correctement localement.
+
+6. **Soumettez une Pull Request :** Lorsque vous êtes prêt, soumettez une pull request (PR) depuis votre branche vers le dépôt principal. Expliquez clairement les changements que vous avez apportés et pourquoi ils sont nécessaires.
+
+### Normes de Contribution
+
+- Suivez les normes de codage du projet. Consultez le fichier `.editorconfig` pour les configurations d'éditeur recommandées.
+- Documentez tout nouveau code ou modification apportée.
+- Ajoutez des tests si nécessaire pour garantir la stabilité du code.
+- Respectez les règles de versionnement sémantique pour les changements dans le code.
+
+### Problèmes et Demandes d'Améliorations
+
+Si vous identifiez des problèmes ou si vous avez des suggestions d'améliorations, n'hésitez pas à créer une issue. Nous sommes ouverts à l'amélioration continue de ce projet.
+
+Nous vous remercions pour votre intérêt et votre contribution à faire de ce projet un succès collaboratif !
 
