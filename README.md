@@ -83,42 +83,30 @@ Pour plus de détails sur les données, veuillez consulter la [source des donné
 6. **Modèle 6 - Bagging :** Le bagging (Bootstrap Aggregating) est une technique d'ensemble où plusieurs modèles sont entraînés sur différents sous-ensembles des données d'entraînement. Cela réduit la variance du modèle global. [Documentation du Bagging](https://scikit-learn.org/stable/modules/ensemble.html#bagging-meta-estimator)
 
 ## Installation
-1. Clonez le dépôt GitHub sur votre machine locale.
+## Installation
+
+### Prérequis
+Assurez-vous d'avoir Python installé. Si ce n'est pas le cas, téléchargez et installez Python à partir du [site officiel](https://www.python.org/downloads/).
+
+### Étapes d'Installation
+
+1. **Clonez le dépôt GitHub**
    ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-projet.git
-Guide d'Installation
-Prérequis
-Python (version 3.x recommandée)
-Git (pour cloner le dépôt)
-Étapes d'Installation
-Clonez le Dépôt
+   git clone [https://github.com/jinan02/projet_ift712](https://github.com/jinan02/projet_ift712)
+   cd nom-du-projet
+   
+   # Créez un environnement virtuel (optionnel, mais recommandé)
+   python -m venv venv
+   # Pour activer l'environnement virtuel (sous Windows) 
+   venv\Scripts\activate
+   # Pour activer l'environnement virtuel (sous macOS/Linux)
+   source venv/bin/activate
 
-bash
-Copy code
-git clone https://github.com/votre-utilisateur/nom-du-projet.git
-cd nom-du-projet
-Créez un Environnement Virtuel (Optionnel)
+   #Installez les dépendances
+   pip install -r requirements.txt
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate   # Pour Linux/Mac
-# ou
-.\venv\Scripts\activate    # Pour Windows
-Installez les Dépendances
 
-bash
-Copy code
-pip install -r requirements.txt
-Exécutez le Projet
 
-Entraînez les modèles et effectuez les prédictions.
-bash
-Copy code
-python projet.ipynb
-Remarques
-Assurez-vous que l'environnement virtuel est activé avant d'installer les dépendances ou d'exécuter le projet.
-Le fichier projet.ipynb peut être exécuté dans un environnement Jupyter Notebook ou dans tout autre environnement compatible avec les notebooks.
-Pour des détails spécifiques sur l'utilisation du projet, consultez la section "Utilisation" dans le fichier README.md.
+
 * Free software: MIT license
 
