@@ -5,6 +5,20 @@ Projet de Classification de Feuilles (Leaf Classificiation)
 
 Ce projet vise à résoudre le problème de classification de feuilles en utilisant six modèles de classification différents. Chaque modèle est conçu pour prédire la classe d'une feuille sur la base de caractéristiques spécifiques extraites de l'image de la feuille.
 
+## Données
+
+Les données utilisées pour l'entraînement et les tests sont stockées dans le dossier 'data'.
+Le jeu de données comprend environ 1 584 images de spécimens de feuilles (16 échantillons de chacune des 99 espèces), converties en feuilles noires binaires sur fond blanc. Trois ensembles de caractéristiques sont également fournis par image : un descripteur continu de forme, un histogramme de texture intérieure et un histogramme de marge à petite échelle. Pour chaque caractéristique, un vecteur de 64 attributs est donné par échantillon de feuille.
+
+
+Les colonnes du jeu de données sont les suivantes :
+- `id` : un identifiant anonyme unique pour une image
+- `margin_1`, `margin_2`, ..., `margin_64` : chacun des 64 vecteurs d'attributs pour la caractéristique de marge
+- `shape_1`, `shape_2`, ..., `shape_64` : chacun des 64 vecteurs d'attributs pour la caractéristique de forme
+- `texture_1`, `texture_2`, ..., `texture_64` : chacun des 64 vecteurs d'attributs pour la caractéristique de texture
+
+Pour plus de détails sur les données, veuillez consulter la [source des données sur Kaggle](https://www.kaggle.com/c/leaf-classification/data).
+
 ## Modèles de Classification
 
 
